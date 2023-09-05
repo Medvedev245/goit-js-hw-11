@@ -1,0 +1,44 @@
+.conteiner {
+  height: 70px;
+  background-color: rgb(220, 161, 222);
+  display: flex;
+}
+
+.search-form {
+  margin: auto;
+}
+
+.search-form input {
+  border-radius: 2px;
+  border: 0;
+  outline: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 10px;
+  margin: 10px;
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+}
+
+.load-more-hidden {
+  display: none;
+}
+
+.load-more {
+  width: 150px;
+  height: 40px;
+  background-color: #dca1de;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
