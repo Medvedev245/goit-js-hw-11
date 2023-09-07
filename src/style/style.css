@@ -3,6 +3,12 @@
   --text-color: #e5e7ff;
   --btn-color: #817c7c;
 }
+
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 426px;
+  }
+}
 img {
   object-fit: cover;
 }
